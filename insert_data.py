@@ -9,7 +9,7 @@ df = pd.read_csv('cleaned_reviews.csv')
 conn = psycopg2.connect(
     dbname='bank_reviews',
     user='postgres',
-    password='iwamg', 
+    password='', 
     host='localhost',
     port='5432'
 )
